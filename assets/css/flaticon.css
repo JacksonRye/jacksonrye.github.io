@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?cb196c6ed2bae62edfb873c37959f378") format("truetype"),
+url("./flaticon.woff?cb196c6ed2bae62edfb873c37959f378") format("woff"),
+url("./flaticon.woff2?cb196c6ed2bae62edfb873c37959f378") format("woff2"),
+url("./flaticon.eot?cb196c6ed2bae62edfb873c37959f378#iefix") format("embedded-opentype"),
+url("./flaticon.svg?cb196c6ed2bae62edfb873c37959f378#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-globe:before {
+    content: "\f101";
+}
+.flaticon-smartphone:before {
+    content: "\f102";
+}
+.flaticon-cash-flow:before {
+    content: "\f103";
+}
+.flaticon-house:before {
+    content: "\f104";
+}
+.flaticon-exam:before {
+    content: "\f105";
+}
+.flaticon-reliability:before {
+    content: "\f106";
+}
+.flaticon-coin:before {
+    content: "\f107";
+}
+.flaticon-clock:before {
+    content: "\f108";
+}
+.flaticon-monitor:before {
+    content: "\f109";
+}
+.flaticon-search:before {
+    content: "\f10a";
+}
+.flaticon-shopping-cart:before {
+    content: "\f10b";
+}
+.flaticon-facebook:before {
+    content: "\f10c";
+}
+.flaticon-youtube:before {
+    content: "\f10d";
+}
+.flaticon-twitter:before {
+    content: "\f10e";
+}
+.flaticon-linkedin:before {
+    content: "\f10f";
+}

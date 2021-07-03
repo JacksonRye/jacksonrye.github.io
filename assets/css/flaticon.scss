@@ -1,0 +1,85 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?cb196c6ed2bae62edfb873c37959f378") format("truetype"),
+url("./flaticon.woff?cb196c6ed2bae62edfb873c37959f378") format("woff"),
+url("./flaticon.woff2?cb196c6ed2bae62edfb873c37959f378") format("woff2"),
+url("./flaticon.eot?cb196c6ed2bae62edfb873c37959f378#iefix") format("embedded-opentype"),
+url("./flaticon.svg?cb196c6ed2bae62edfb873c37959f378#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "globe": "\f101",
+    "smartphone": "\f102",
+    "cash-flow": "\f103",
+    "house": "\f104",
+    "exam": "\f105",
+    "reliability": "\f106",
+    "coin": "\f107",
+    "clock": "\f108",
+    "monitor": "\f109",
+    "search": "\f10a",
+    "shopping-cart": "\f10b",
+    "facebook": "\f10c",
+    "youtube": "\f10d",
+    "twitter": "\f10e",
+    "linkedin": "\f10f",
+);
+
+.flaticon-globe:before {
+    content: map-get($flaticon-map, "globe");
+}
+.flaticon-smartphone:before {
+    content: map-get($flaticon-map, "smartphone");
+}
+.flaticon-cash-flow:before {
+    content: map-get($flaticon-map, "cash-flow");
+}
+.flaticon-house:before {
+    content: map-get($flaticon-map, "house");
+}
+.flaticon-exam:before {
+    content: map-get($flaticon-map, "exam");
+}
+.flaticon-reliability:before {
+    content: map-get($flaticon-map, "reliability");
+}
+.flaticon-coin:before {
+    content: map-get($flaticon-map, "coin");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-monitor:before {
+    content: map-get($flaticon-map, "monitor");
+}
+.flaticon-search:before {
+    content: map-get($flaticon-map, "search");
+}
+.flaticon-shopping-cart:before {
+    content: map-get($flaticon-map, "shopping-cart");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-youtube:before {
+    content: map-get($flaticon-map, "youtube");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon-map, "linkedin");
+}
