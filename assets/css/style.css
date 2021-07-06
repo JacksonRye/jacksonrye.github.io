@@ -22,9 +22,20 @@ button {
   outline: 0 !important;
 }
 
+/* Mine */
+
 #actionable {
   padding: 8px;
 }
+
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+  font-size: 1em;
+}
+
+/* End Mine */
 
 .h1,
 .h2,
